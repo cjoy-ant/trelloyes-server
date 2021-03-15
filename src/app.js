@@ -4,8 +4,6 @@ const morgan = require("morgan");
 const helmet = require("helmet");
 const cors = require("cors");
 const { NODE_ENV } = require("./config");
-const winston = require("winston");
-const { v4: uuid } = require("uuid");
 const cardRouter = require("./card/card-router");
 const listRouter = require("./list/list-router");
 
